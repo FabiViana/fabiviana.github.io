@@ -1,23 +1,47 @@
 
 .container {
-  background-image: url(../style/blur-bottle-bright-273238.jpg);  
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  background-image: url(../style/workplace.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.navname {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:black;
+}
+
+.list-inline {
+  padding: 10px;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 1em;
+  text-align: center;
 
 }
 
+.btn-lg {
+  background-color: transparent;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 13px;    
+  position: relative;
+}
+
 .text-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  margin-top: 50px;
-  padding: 50px; 
+  background-color: transparent;
+  text-align: center;
+  font: 700;
 }
 
 .breadcrumb {
@@ -25,12 +49,11 @@
 
 }
 
-.p {
+.maintext {
   text-align: center;
-  margin: 0%;
-  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
 }
 
-.tittle {
-  margin-left: 50px;
-}
+
