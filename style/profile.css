@@ -1,59 +1,42 @@
-
-.container {
-  background-image: url(../style/workplace.jpg); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: relative;
+.coverhome {
+  background-image: url("workplace.jpg");
+  height: 100vh;
+  border: 3px solid;
+  background-size: cover;
+  background-position: center;
 }
 
-.navname {
-  font-weight: 600;
-  font-style: normal;
-  font-size: 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color:black;
+.row {
+  padding: 20px 0px;
+  margin: 10px;
 }
 
-.list-inline {
-  padding: 10px;
-  font-style: normal;
+ul li {
   font-size: 13px;
-  letter-spacing: 2px;
-  line-height: 1em;
+  float: left;
+  margin:15px;
+  list-style-type: none;
+}
+
+.button-header {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.tittle-main {
   text-align: center;
-
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  color: aliceblue;
 }
 
-.btn-lg {
-  background-color: transparent;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  border: 2px solid #fff;
-  color: #fff;
-  font-size: 13px;    
-  position: relative;
-}
-
-.text-center {
-  background-color: transparent;
+.main-text {
   text-align: center;
-  font: 700;
-}
+  font-weight: 400;
+} 
 
-.breadcrumb {
-  background-color: transparent;
 
-}
 
-.maintext {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px;
-}
 
 
